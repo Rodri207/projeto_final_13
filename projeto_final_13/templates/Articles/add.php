@@ -1,5 +1,5 @@
 <!-- File: Templates/Articles/add.php -->
-<h1>Add Article</h1>
+<h1>Adicionar jogador</h1>
 <?php
 echo $this->Form->create($article);
 echo $this->Form->input('Nome');
