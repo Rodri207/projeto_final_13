@@ -8,7 +8,7 @@
 <th>Id</th>
 <th>Nome</th>
 <th>Posição</th>
-<th>Criado</th>
+<th>Nasceu</th>
 <th>Ações</th> </tr>
 <!-- Aqui é onde iremos iterar nosso objeto de solicitação $articles, exibindo informações de artigos -->
 <?php foreach ($articles as $article): ?>
