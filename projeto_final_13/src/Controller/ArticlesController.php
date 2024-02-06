@@ -53,9 +53,5 @@ $this->Flash->success(__('O artigo com id: {0} foi eliminado.', h($id)));
 return $this->redirect(['action' => 'index']);
 }
 }
-public function mostraOsJogadores()
-{
 }
-}
-
 ?>

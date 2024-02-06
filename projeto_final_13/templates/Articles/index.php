@@ -2,6 +2,7 @@
 <!-- File: Templates/Articles/index.php (delete links added) -->
 <h1>Jogadores</h1>
 <p><?= $this->Html->link('Adicionar artigo', ['action' => 'add']) ?></p>
+
 <table>
 <tr>
 <th>Id</th>
