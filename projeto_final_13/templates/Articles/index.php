@@ -18,8 +18,8 @@
 <td> <?= $this->Html->link($article->Posicao, ['action' => 'view', $article->id]) ?> </td>
 <td> <?= $article->created->format(DATE_RFC850) ?> </td>
 <td>
-<?= $this->Form->postLink( 'Deletar', ['action' => 'delete', $article->id], ['confirm' => 'Tem certeza?']) ?>
-<?= $this->Html->link('Edit', ['action' => 'edit', $article->id]) ?>
+<?= $this->Form->postLink( 'Excluir', ['action' => 'delete', $article->id], ['confirm' => 'Tem certeza?']) ?>
+<?= $this->Html->link(' Alterar', ['action' => 'edit', $article->id]) ?>
 </td>
 </tr>
 <?php endforeach; ?>
